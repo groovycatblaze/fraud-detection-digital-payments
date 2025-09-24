@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 import joblib
 
-# Generate synthetic dataset (mimicking payment transactions)
+# mimicking payment transactions
 def generate_data():
     import numpy as np
     n = 5000
